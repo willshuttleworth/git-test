@@ -14,3 +14,7 @@
 * create branch to clean up class design and overall program flow
 * test branch
 * merge
+
+### branch testing
+
+* this should be added to a new branch
