@@ -15,6 +15,3 @@
 * test branch
 * merge
 
-### branch testing
-
-* this should be added to a new branch
