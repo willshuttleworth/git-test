@@ -7,3 +7,10 @@
 * `git push`: pushes commits to repo. specify `origin main` to push to github repo where project was originally cloned from
 * `git pull`: updates local repo to match github repo.
 
+## todo
+
+* learn branching
+* clone ffanalyzer repo
+* create branch to clean up class design and overall program flow
+* test branch
+* merge
