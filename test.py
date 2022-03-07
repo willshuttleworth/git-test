@@ -1,5 +1,6 @@
+size = int(input('enter array size'))
 nums = []
-for i in range(10):
+for i in range(size):
 	nums.append(i)
 print(nums)
 
