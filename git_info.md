@@ -6,6 +6,10 @@
 * `git commit`: commit changes to current branch. **step two** of adding changes. use `-m` to specify a message with commit
 * `git push`: pushes commits to repo. specify `origin main` to push to github repo where project was originally cloned from
 * `git pull`: updates local repo to match github repo.
+* version rollback
+    * `git reset <version>`: moves branch pointer back to specified commit
+    * `git revert <version>`: adds new commit with specified version
+
 
 ## todo
 
