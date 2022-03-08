@@ -7,14 +7,6 @@
 * `git push`: pushes commits to repo. specify `origin main` to push to github repo where project was originally cloned from
 * `git pull`: updates local repo to match github repo.
 
-### branching
-
-* `git checkout -b <new_branch>`: creates and switches to new branch
-* `git checkout <existing_branch_name>`: switches to existing branch
-* `git merge <other_branch_name>`: merges current branch with specified branch
-* `git branch -d <branch_name>`: deletes local branch
-* `git push origin --delete <branch_name>`: deletes remote branch
-
 ## todo
 
 * learn branching
