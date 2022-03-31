@@ -9,7 +9,8 @@
 * version rollback
     * `git reset <version>`: moves branch pointer back to specified commit
     * `git revert <version>`: adds new commit with specified version
-
+* `git remote add origin <url>`: adds remote origin for local repository
+* `git remote -v`: verifies remote url of repo
 
 ## todo
 
