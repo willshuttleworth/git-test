@@ -10,3 +10,4 @@ for i in nums:
 print('sum:', sum)
 print("did you know that this sum is equal to n(n+1)/2? (where n is the array size)")
 name = input("enter first name:")
+# added comment for commit
