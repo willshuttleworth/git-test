@@ -14,6 +14,8 @@
 
 ## todo
 
+* merge, checkout, log, rebase
+
 * learn branching
 * clone ffanalyzer repo
 * create branch to clean up class design and overall program flow
