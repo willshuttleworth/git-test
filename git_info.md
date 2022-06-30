@@ -14,11 +14,10 @@
 
 ## todo
 
-* merge, checkout, log, rebase
+* merge, checkout, log, rebase, deleting branches locally and remotely
 
 * learn branching
 * clone ffanalyzer repo
 * create branch to clean up class design and overall program flow
 * test branch
-* merge
 
