@@ -35,5 +35,5 @@
 
 ## todo
 
-* merge, checkout, rebase (basically whole section about branching)
-
+* merge, checkout, rebase, deleting remote branch (basically whole section about branching)
+* add section about gh cli. mainly creating repo from command line and maybe some other uses of gh cli 
