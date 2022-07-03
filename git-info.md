@@ -5,6 +5,7 @@
 ### adding new changes
 
 * `git add`: add changes from existing files or adds new files to be committed. **step one** of adding changes
+	* `git commit -am` also stages all changes and commits in one step. basically combines `git add .` and `git commit -m` into one step. useful if you want to add all changes.
 * `git commit`: commit changes to current branch. **step two** of adding changes. use `-m` to specify a message with commit
 * `git push`: pushes commits to repo. specify `origin main` to push to github repo where project was originally cloned from
 * `git pull`: updates local repo to match github repo.
@@ -27,11 +28,27 @@
 
 * `git remote add origin <url>`: adds remote origin for local repository
 * `git remote -v`: verifies remote url of repo
+* `git push -d origin <branch_name>`: deletes branch (remotely)
 
 ### checking status
 
 * `git log`: shows log of all commits, also tells where remote is 
 * `git status`: tells which changes are pending. useful when you mess up lol
+
+### branching
+
+* `git branch`: lists all branches in repo
+* creating new branch
+	* `git branch <branch_name>`: creates new branch
+	* `git checkout <branch>`: switches to specified branch
+	* `git checkout -b <new_branch_name>`: creates and switches to specified branch
+* `git merge <branch>`: merges changes from specified branch into current branch you are on
+* `git branch -d <branch_name>`: deletes branch (locally)
+* **note:** `git checkout` changes working directory to match whatever branch or commit was specified
+
+### gh cli
+
+* (add useful gh commands) 
 
 ## todo
 
