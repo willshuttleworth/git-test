@@ -45,7 +45,7 @@
 * `git merge <branch>`: merges changes from specified branch into current branch you are on
 * `git branch -d <branch_name>`: deletes branch (locally)
 * **note:** `git checkout` changes working directory to match whatever branch or commit was specified
-* **another note:** the branch is only pushed to the remote repo if it is unmerged when a push is done. if the branch is created and merged before a push, it is never shown on the remote repo.
+* **another note:** the branch is only pushed to the remote repo if it is unmerged when a push is done. if the branch is created and merged before a push, it is never shown on the remote repo. however, the branch still exists locally.
 
 ### gh cli
 
