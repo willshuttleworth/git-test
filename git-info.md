@@ -55,11 +55,6 @@
 * **note:** `git checkout` changes working directory to match whatever branch or commit was specified
 * **another note:** the branch is only pushed to the remote repo if it is unmerged when a push is done. if the branch is created and merged before a push, it is never shown on the remote repo. however, the branch still exists locally.
 
-### gh cli
-
-* (add useful gh commands) 
-
 ## todo
 
-* merge, checkout, rebase, deleting remote branch (basically whole section about branching)
-* add section about gh cli. mainly creating repo from command line and maybe some other uses of gh cli 
+* add more obscure git commands
