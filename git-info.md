@@ -44,6 +44,8 @@
 	* `git checkout -b <new_branch_name>`: creates and switches to specified branch
 * `git merge <branch>`: merges changes from specified branch into current branch you are on
 * `git branch -d <branch_name>`: deletes branch (locally). or specify -D option instead to delete an unmerged branch
+* `git rebase`: useful if a branch is opened but another branch is still being worked on. for example, feature branch is created but master is then given another commit. to keep feature updated with main workflow, use `git rebase main` when on feature to add the newest commit of main onto the feature branch. then, to keep all commits separated and linear, switch back to main and use `git rebase feature` to make the git log show all commits linearly.
+* `git merge` **vs** `git rebase`: same overall functionality, but rebase is better because it adds all the feature branch commits on top of main. merge just combines all the changes of feature and puts it on top of main in one single commit. downside of git rebase is that it gets weird when using a remote repo and collaborators.
 * **note:** `git checkout` changes working directory to match whatever branch or commit was specified
 * **another note:** the branch is only pushed to the remote repo if it is unmerged when a push is done. if the branch is created and merged before a push, it is never shown on the remote repo. however, the branch still exists locally.
 
