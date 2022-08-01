@@ -6,6 +6,7 @@
 
 * `git add`: add changes from existing files or adds new files to be committed. **step one** of adding changes
 	* `git commit -am` also stages all changes and commits in one step. basically combines `git add .` and `git commit -m` into one step. useful if you want to add all changes.
+    * `git add -A`: adds all files in specified folder
 * `git commit`: commit changes to current branch. **step two** of adding changes. use `-m` to specify a message with commit
 * `git push`: pushes commits to repo. specify `origin main` to push to github repo where project was originally cloned from
 * `git pull`: updates local repo to match github repo.
@@ -57,4 +58,4 @@
 
 ## todo
 
-* add more obscure git commands
+* git bisect
