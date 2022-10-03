@@ -12,7 +12,7 @@
 * `git pull`: updates local repo to match github repo.
 * `git tag <tagname>`: tags current commit with a short name, specified with tagname. useful if you may have to rollback to certain commit and do not want to use entire hash to specify the commit
 * `git stash`: temporarily saving changes. for example, making changes and saving them with stash so you do not have to add or commit changes before switching branches
-	* `git stash push "message"`: stash current changes
+	* `git stash push -m "message"`: stash current changes
 	* `git stash apply <stashid>` or `git stash pop`: `apply` adds changes from stash back into working directory, and the stash is preserved. `pop` adds the most recent stash's changes to the working directory, and the stash is removed
 	* `git stash drop <stashid>`: remove specified stash from list of stashes
 	* `git stash list`: list all current stashes
