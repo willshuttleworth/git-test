@@ -25,6 +25,7 @@
 	* how to use
 		* `git reset <commit hash/tag>` where commit hash or tag is the commit you are resetting to
 		* `git checkout <commit hash/tag> -- <filename to reset>` again, hash/tag is commit you are resetting to. also, filename is the specific file you want to reset in your working directory
+        * `git restore .`: after resetting, restores files in working directory to their state in the commit
 * `git revert`: adds new commit with specified version
 	* use case: pushed changes that are wrong to remote. want to fix remote essentially.
 	* how to use
