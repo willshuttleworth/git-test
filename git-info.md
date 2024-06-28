@@ -63,3 +63,5 @@
 ## todo
 
 * git bisect
+* best way to collaborate on same file without getting merge conflicts? 
+    * git merging *should* work as long as the file was not edited in the same place in separate branches
