@@ -5,6 +5,6 @@ int main(int argc, char** argv) {
         printf("hello, %s\n", argv[1]);
     }
     puts("done");
-    puts("done");
+    puts("done 2");
     return 0;
 }
