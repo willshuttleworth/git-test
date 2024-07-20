@@ -11,5 +11,6 @@ int main(int argc, char** argv) {
     puts("done");
     puts("done 2");
     puts("done 3");
+    puts("done 4");
     return 0;
 }
